@@ -2,29 +2,7 @@
 name: essentialsfw
 version: 0.0.1
 main: skyss0fly\essentialsfw\Main
-api: 4.7.0
+api: 5.0.0
 src-namespace-prefix: skyss0fly\essentials
 
-commands:
-  tp:
-    permission: essentials.command
-    description: teleport
-  
-  warp:
-  permission: essentials.command
-  description: warp to places lol
-  
- fly:
- permission: essentials.op
- description: fly lol
 
-permissions:
-  essentials.command:
-    default: false
-    
-  essentials.guest
-  default: true
-  
- essentials.op
- default: false
-...
